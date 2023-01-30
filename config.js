@@ -11,6 +11,9 @@
 
 module.exports = {
   language: 'es',
+  company: 'Ziyegó',
+  prettify: true,
+  minify: true,
   build: {
     templates: {
       source: 'src/templates',

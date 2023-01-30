@@ -1,0 +1,47 @@
+<!-- Plantilla de emails de Ziyegó febrero del 2023  -->
+<extends src="src/layouts/main.html">
+    <block name="head">
+        <!-- Fuentes tipográficas -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    </block>
+    <block name="template">
+        <table class="container px-32 bg-ziyego-2023-february-gray-3">
+            <tr>
+                <td class="pt-28 pb-20">
+                    <table class="w-full text-ziyego-2023-february-purple-2 font-ziyego-2023-february-text">
+                        <tr>
+                            <td class="pb-16 text-center">
+                                <!-- Logo -->
+                                <a href="#">
+                                    <img src="/images/2023-february/logo.webp" alt="Logo de {{ page.company }}" class="h-28 w-auto">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Contenido -->
+                                <block name="content"></block>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Banner -->
+                                <component src="src/components/2023-february/banner.html">
+                                </component>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!-- Footer -->
+                                <component src="src/components/2023-february/footer.html">
+                                </component>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </block>
+</extends>

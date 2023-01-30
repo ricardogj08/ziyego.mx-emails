@@ -1,68 +1,38 @@
-<div align="center">
-  <p>
-    <a href="https://maizzle.com" target="_blank">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/maizzle/maizzle/raw/master/.github/logo-dark.svg">
-        <img alt="Maizzle Starter" src="https://github.com/maizzle/maizzle/raw/master/.github/logo-light.svg" width="300" height="225" style="max-width: 100%;">
-      </picture>
-    </a>
-  </p>
-  <p>Quickly build HTML emails with utility-first CSS</p>
-<div>
+# Emails de Ziyegó
 
-  [![Version][npm-version-shield]][npm]
-  [![Build][github-ci-shield]][github-ci]
-  [![Downloads][npm-stats-shield]][npm-stats]
-  [![License][license-shield]][license]
+Demos:
 
-  </div>
-</div>
+* [Febrero 2023 - Recarga abonada](https://ricardogj08.github.io/ziyego.mx-emails/2023-february/recarga-abonada.html)
+* [Febrero 2023 - Recuperación de cuenta](https://ricardogj08.github.io/ziyego.mx-emails/2023-february/recuperacion-cuenta.html)
+* [Febrero 2023 - Nueva incidencia](https://ricardogj08.github.io/ziyego.mx-emails/2023-february/nueva-incidencia.html)
 
-## Getting Started
+## Instalación
 
-Clone this starter:
+    git clone https://github.com/ricardogj08/ziyego.mx-emails.git
+    cd ziyego.mx-emails
+    npm install
 
-```bash
-npx degit maizzle/maizzle my-project
-```
+## Comandos
 
-Install dependencies:
+Ejecuta el servidor de desarrollo de Maizzle:
 
-```
-cd my-project
+    npm run dev
 
-npm install
-```
+Compila todas las plantillas de Maizzle:
 
-Start local development:
+    npm run build
 
-```
-npm run dev
-```
+Estandariza la guía de estilo de todo el código JavaScript:
 
-Build emails for production:
+    npx standard
 
-```
-npm run build
-```
+## Referencias
 
-## Documentation
+* [Maizzle](https://maizzle.com/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Can I email…](https://www.caniemail.com/)
+* [JavaScript Standard Style](https://standardjs.com/)
 
-Maizzle documentation is available at https://maizzle.com
+## Licencia
 
-## Issues
-
-Please open all issues in the [framework repository](https://github.com/maizzle/framework).
-
-## License
-
-The Maizzle framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-[npm]: https://www.npmjs.com/package/@maizzle/framework
-[npm-stats]: https://npm-stat.com/charts.html?package=%40maizzle%2Fframework&from=2019-03-27
-[npm-version-shield]: https://img.shields.io/npm/v/@maizzle/framework.svg
-[npm-stats-shield]: https://img.shields.io/npm/dt/@maizzle/framework.svg?color=6875f5
-[github-ci]: https://github.com/maizzle/framework/actions
-[github-ci-shield]: https://github.com/maizzle/framework/actions/workflows/nodejs.yml/badge.svg
-[license]: ./LICENSE
-[license-shield]: https://img.shields.io/npm/l/@maizzle/framework.svg?color=0e9f6e
+    Genotipo (R)
