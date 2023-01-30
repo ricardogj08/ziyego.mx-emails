@@ -106,8 +106,8 @@ module.exports = {
         sans: ['ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
         serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
         mono: ['ui-monospace', 'Menlo', 'Consolas', 'monospace'],
-        'ziyego-2023-february-text': ['Open Sans', 'sans-serif'],
-        'ziyego-2023-february-title': ['Roboto', 'sans-serif']
+        'ziyego-text': ['Open Sans', 'sans-serif'],
+        'ziyego-title': ['Roboto', 'sans-serif']
       },
       fontSize: {
         0: '0',
@@ -156,28 +156,24 @@ module.exports = {
       }),
       colors: {
         ziyego: {
-          2023: {
-            february: {
-              purple: {
-                1: '#551C53',
-                2: '#972B99'
-              },
-              pink: {
-                1: '#C94286'
-              },
-              orange: {
-                1: '#E84A33'
-              },
-              yellow: {
-                1: '#F5DF4D'
-              },
-              gray: {
-                1: '#727377',
-                2: '#71769A',
-                3: '#F8FAFF',
-                4: '#939597'
-              }
-            }
+          purple: {
+            1: '#551C53',
+            2: '#972B99'
+          },
+          pink: {
+            1: '#C94286'
+          },
+          orange: {
+            1: '#E84A33'
+          },
+          yellow: {
+            1: '#F5DF4D'
+          },
+          gray: {
+            1: '#727377',
+            2: '#71769A',
+            3: '#F8FAFF',
+            4: '#939597'
           }
         }
       }

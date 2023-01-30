@@ -2,9 +2,9 @@
 
 Demos:
 
-* [Febrero 2023 - Recarga abonada](https://ricardogj08.github.io/ziyego.mx-emails/2023-february/recarga-abonada.html)
-* [Febrero 2023 - Recuperación de cuenta](https://ricardogj08.github.io/ziyego.mx-emails/2023-february/recuperacion-cuenta.html)
-* [Febrero 2023 - Nueva incidencia](https://ricardogj08.github.io/ziyego.mx-emails/2023-february/nueva-incidencia.html)
+* [Recarga abonada](https://ricardogj08.github.io/ziyego.mx-emails/recarga-abonada.html)
+* [Recuperación de cuenta](https://ricardogj08.github.io/ziyego.mx-emails/recuperacion-cuenta.html)
+* [Nueva incidencia](https://ricardogj08.github.io/ziyego.mx-emails/nueva-incidencia.html)
 
 ## Instalación
 
