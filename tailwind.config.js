@@ -126,7 +126,8 @@ module.exports = {
         '6xl': '60px',
         '7xl': '72px',
         '8xl': '96px',
-        '9xl': '128px'
+        '9xl': '128px',
+        40: '40px',
       },
       letterSpacing: theme => ({
         ...theme('spacing')
@@ -174,8 +175,14 @@ module.exports = {
             2: '#71769A',
             3: '#F8FAFF',
             4: '#939597'
+          },
+          green: {
+            1: '#66BEA4'
           }
         }
+      },
+      backgroundImage: {
+        'ziyego-banner-background': "url('images/banner-background.webp')"
       }
     }
   },
