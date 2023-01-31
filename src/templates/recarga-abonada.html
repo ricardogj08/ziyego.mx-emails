@@ -5,5 +5,68 @@ description: "Recarga abonada"
 
 <extends src="src/layouts/default.html">
     <block name="content">
+        <table class="w-full bg-ziyego-content-background bg-cover bg-center bg-no-repeat rounded-t-57 text-white font-ziyego-text text-center">
+            <tr>
+                <td class="pt-16">
+                    <img src="images/cartera.webp" class="h-32 w-auto" alt="Cartera">
+                </td>
+            </tr>
+            <tr>
+                <td class="pb-12">
+                    <h1 class="m-0 text-50 font-medium tracking-tight mt-3 mb-5">
+                        Recarga Abonada
+                    </h1>
+                    <p class="m-0 text-xl mb-0.5">
+                        Medio de pago:
+                    </p>
+                    <p class="m-0 text-25 font-medium">
+                        Regalo (Guía contrato)
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="pb-8">
+                    <table class="w-3/4 m-auto">
+                        <tr>
+                            <td class="bg-ziyego-purple-3 rounded-3xl h-36">
+                                <p class="m-0 text-xl tracking-tight mb-0.5">
+                                    Monto cobrado
+                                </p>
+                                <p class="m-0 text-25 font-medium">
+                                    $10.00 MXN
+                                </p>
+                            </td>
+                            <td class="p-2" role="separator">&zwj;</td>
+                            <td class="bg-ziyego-purple-3 rounded-3xl h-36 relative">
+                                <p class="m-0 text-xl tracking-tight mb-0.5">
+                                    Monto Abonado
+                                </p>
+                                <p class="m-0 text-25 font-medium">
+                                    +$10.00 MXN
+                                </p>
+                                <p class="m-0 h-22 w-22 flex items-center text-ziyego-purple-2 font-semibold text-sm bg-ziyego-mask bg-cover bg-center bg-no-repeat absolute -top-10 -right-8">
+                                    ¡Revisa tu saldo!
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="pb-24">
+                    <p class="m-0 mb-4 text-xl">
+                        Puedes revisar tu saldo iniciando sesión en el siguiente enlace.
+                    </p>
+                    <a href="#" class="inline-block no-underline bg-ziyego-yellow-1 text-ziyego-purple-1 text-2sm font-medium px-60 py-4 rounded-full hover:bg-ziyego-yellow-1/90 transition">
+                        Iniciar Sesión
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="relative">
+                    <img src="images/moneda.webp" class="h-44 w-auto z-10 absolute -bottom-12 -right-14" alt="Moneda">
+                </td>
+            </tr>
+        </table>
     </block>
 </extends>

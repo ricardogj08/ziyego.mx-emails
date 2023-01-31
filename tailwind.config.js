@@ -130,6 +130,7 @@ module.exports = {
         '7xl': '72px',
         '8xl': '96px',
         '9xl': '128px',
+        25: '25px',
         40: '40px',
         50: '50px'
       },
@@ -164,7 +165,8 @@ module.exports = {
         ziyego: {
           purple: {
             1: '#551C53',
-            2: '#972B99'
+            2: '#972B99',
+            3: '#62064D'
           },
           pink: {
             1: '#C94286'
@@ -188,10 +190,16 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'ziyego-banner-background': "url('images/banner-background.webp')"
+        'ziyego-content-background': "url('images/content-background.webp')",
+        'ziyego-banner-background': "url('images/banner-background.webp')",
+        'ziyego-mask': "url('images/mask.webp')",
       },
       height: {
+        22: '88px',
         41: '164px'
+      },
+      width: {
+        22: '88px'
       }
     }
   },
