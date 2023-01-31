@@ -5,7 +5,10 @@ module.exports = {
       sm: { max: '600px' }
     },
     container: {
-      center: true
+      center: true,
+      padding: {
+        DEFAULT: '16px' // < 425px
+      }
     },
     extend: {
       spacing: {
@@ -91,7 +94,8 @@ module.exports = {
         lg: '8px',
         xl: '12px',
         '2xl': '16px',
-        '3xl': '24px'
+        '3xl': '24px',
+        57: '57px'
       },
       boxShadow: {
         sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
@@ -107,7 +111,6 @@ module.exports = {
         serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
         mono: ['ui-monospace', 'Menlo', 'Consolas', 'monospace'],
         'ziyego-text': ['Open Sans', 'sans-serif'],
-        'ziyego-title': ['Roboto', 'sans-serif']
       },
       fontSize: {
         0: '0',
@@ -128,6 +131,7 @@ module.exports = {
         '8xl': '96px',
         '9xl': '128px',
         40: '40px',
+        50: '50px'
       },
       letterSpacing: theme => ({
         ...theme('spacing')
@@ -147,7 +151,8 @@ module.exports = {
         '4xl': '448px',
         '5xl': '512px',
         '6xl': '576px',
-        '7xl': '640px'
+        '7xl': '640px',
+        '12xl': '960px'
       }),
       minHeight: theme => ({
         ...theme('spacing')
@@ -174,7 +179,8 @@ module.exports = {
             1: '#727377',
             2: '#71769A',
             3: '#F8FAFF',
-            4: '#939597'
+            4: '#939597',
+            5: '#869BB0'
           },
           green: {
             1: '#66BEA4'
@@ -183,6 +189,9 @@ module.exports = {
       },
       backgroundImage: {
         'ziyego-banner-background': "url('images/banner-background.webp')"
+      },
+      height: {
+        41: '164px'
       }
     }
   },

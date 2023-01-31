@@ -4,37 +4,49 @@
         <!-- Fuentes tipográficas -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </block>
     <block name="template">
-        <table class="container px-32 bg-ziyego-gray-3">
+        <table class="w-full bg-ziyego-gray-3 h-screen">
             <tr>
-                <td class="pt-28 pb-20">
-                    <table class="w-full text-ziyego-purple-2 font-ziyego-text">
+                <td>
+                    <table class="container max-w-12xl">
                         <tr>
-                            <td class="pb-16 text-center">
-                                <!-- Logo -->
-                                <a href="#">
-                                    <img src="images/logo.webp" alt="Logo de {{ page.company }}" class="h-28 w-auto">
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <!-- Contenido -->
-                                <block name="content"></block>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="pb-20">
-                                <!-- Banner -->
-                                <component src="src/components/banner.html"></component>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <!-- Footer -->
-                                <component src="src/components/footer.html"></component>
+                            <td class="pt-28 pb-20">
+                                <table class="w-full">
+                                    <tr>
+                                        <td class="pb-16 text-center">
+                                            <!-- Logo -->
+                                            <a href="#">
+                                                <img src="images/logo.webp" alt="Logo de {{ page.company }}" class="h-28 w-auto">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <!-- Contenido -->
+                                            <block name="content"></block>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pb-8">
+                                            <!-- Servicios -->
+                                            <component src="src/components/services.html"></component>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pb-20">
+                                            <!-- Banner -->
+                                            <component src="src/components/banner.html"></component>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <!-- Footer -->
+                                            <component src="src/components/footer.html"></component>
+                                        </td>
+                                    </tr>
+                                </table>
                             </td>
                         </tr>
                     </table>
