@@ -5,5 +5,98 @@ description: "Nueva incidencia"
 
 <extends src="src/layouts/default.html">
     <block name="content">
+        <!-- Sección de nueva incidencia -->
+        <table class="w-full bg-ziyego-content-background bg-cover bg-center bg-no-repeat rounded-t-57 text-white font-ziyego-text text-center">
+            <tr>
+                <td class="relative">
+                    <img src="images/paquete-sobre.webp" class="h-38 w-auto absolute -top-7 -right-16" alt="Paquete en sobre">
+                </td>
+            </tr>
+            <tr>
+                <td class="pt-24 pb-12">
+                    <h1 class="m-0 text-50 font-medium tracking-tight mb-8">
+                        Nueva incidencia
+                    </h1>
+
+                    <p class="w-2/3 m-auto text-xl">
+                        Se ha registrado una nueva incidencia generada por algún envío que has realizado. Te invitamos a realizar el pago para que puedas seguir generando envíos en {{ page.company }}&reg;
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="pb-6">
+                    <table class="w-4/5 m-auto">
+                        <tr>
+                            <td class="w-2/5 h-52">
+                                <img src="https://picsum.photos/1280/720" class="h-full w-full rounded-l-3xl object-cover object-center" alt="Logo de la paquetería">
+                            </td>
+                            <td class="w-full h-52 bg-ziyego-purple-3 rounded-r-3xl">
+                                <p class="m-0 text-xl mb-0.5">
+                                    Monto de la incidencia
+                                </p>
+                                <p class="m-0 text-25 font-medium">
+                                    $80 MXN
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="pb-16">
+                    <table class="w-4/5 m-auto text-xl">
+                        <tr>
+                            <td class="bg-ziyego-purple-3 h-44 w-1/2 rounded-3xl">
+                                <p class="m-0 mb-2">
+                                    Clave de envío
+                                </p>
+                                <p class="m-0 font-medium">
+                                    3015897017611683085940
+                                </p>
+                            </td>
+                            <td class="p-4" role="separator">&zwj;</td>
+                            <td class="bg-ziyego-purple-3 h-44 w-1/2 rounded-3xl">
+                                <p class="m-0 mb-2">
+                                    Tipo de incidencia
+                                </p>
+                                <p class="m-0 font-medium">
+                                    Sobrepeso
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="pb-14">
+                    <table class="w-full">
+                        <tr>
+                            <td class="text-right">
+                                <a href="#" class="inline-block no-underline border border-solid border-white px-12 py-4 rounded-3xl text-white font-medium text-2sm hover:font-semibold transition">
+                                    Ver detalles
+                                </a>
+                            </td>
+                            <td class="p-2" role="separator">&zwj;</td>
+                            <td class="text-left">
+                                <a href="#" class="inline-block no-underline bg-ziyego-yellow-1 px-8 py-4 rounded-3xl text-ziyego-purple-1 font-medium text-2sm hover:bg-ziyego-yellow-1/90 transition">
+                                    Pagar incidencia
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="relative">
+                    <img src="images/paquete-caja.webp" class="h-58 w-auto absolute -bottom-16 -left-14" alt="Paquete en caja">
+                </td>
+            </tr>
+            <tr>
+                <td class="relative">
+                    <img src="images/bandera-mexico.webp" class="h-24 w-auto absolute -bottom-16 left-0 right-0 m-auto" alt="Bandera de México"> 
+                </td>
+            </tr>
+        </table>
+        <!-- Fin de la sección de nueva incidencia -->
     </block>
 </extends>
