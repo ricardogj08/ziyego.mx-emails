@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es" xmlns:v="urn:schemas-microsoft-com:vml" style="color-scheme: light dark;">
 <head>
   <meta charset="utf-8">
   <meta name="x-apple-disable-message-reformatting">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
   <meta name="color-scheme" content="light dark">
   <meta name="supported-color-schemes" content="light dark">
@@ -43,8 +43,18 @@
   font-weight: 600 !important;
 }
 @media (max-width: 600px) {
+  .sm-my-7 {
+    margin-top: 28px !important;
+    margin-bottom: 28px !important;
+  }
   .sm-mb-8 {
     margin-bottom: 32px !important;
+  }
+  .sm-mb-7 {
+    margin-bottom: 28px !important;
+  }
+  .sm-mb-6 {
+    margin-bottom: 24px !important;
   }
   .sm-hidden {
     display: none !important;
@@ -73,6 +83,14 @@
   .sm-px-8 {
     padding-left: 32px !important;
     padding-right: 32px !important;
+  }
+  .sm-px-12 {
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+  }
+  .sm-py-20 {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
   }
   .sm-pt-14 {
     padding-top: 56px !important;
@@ -131,24 +149,24 @@
                                         <td> <table style="width: 100%; border-top-left-radius: 57px; border-top-right-radius: 57px; background-image: url('images/content-background.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; text-align: center; font-family: Open Sans, sans-serif; color: #fff" cellpadding="0" cellspacing="0" role="presentation">
             <tr>
                 <td style="position: relative">
-                    <img src="images/avion-papel.webp" alt="Avión de papel" style="position: absolute; top: 144px; left: -104px; height: 336px; width: auto">
+                    <img src="images/avion-papel.webp" class="sm-hidden" alt="Avión de papel" style="position: absolute; top: 144px; left: -104px; height: 336px; width: auto">
                 </td>
             </tr>
             <tr>
-                <td style="padding-top: 160px; padding-bottom: 160px">
+                <td class="sm-py-20" style="padding-top: 160px; padding-bottom: 160px">
                     <p style="margin: 0; font-size: 20px">
                         Ziyegó&reg; tu guía al instante.
                     </p>
-                    <h1 style="margin: 0; margin-bottom: 40px; font-size: 50px; font-weight: 500">
+                    <h1 class="sm-text-4xl sm-mb-7" style="margin: 0; margin-bottom: 40px; font-size: 50px; font-weight: 500">
                         Recupera tu cuenta
                     </h1>
-                    <p style="margin: 0; margin-bottom: 36px; white-space: pre-line; font-size: 25px">Puedes restablecer tu contraseña en el
+                    <p class="sm-text-2xl sm-mb-6" style="margin: 0; margin-bottom: 36px; white-space: pre-line; font-size: 25px">Puedes restablecer tu contraseña en el
                         siguiente enlace
                     </p>
-                    <a href="#" class="hover-bg-ziyego-yellow-1-90" style="display: inline-block; border-radius: 24px; background-color: #F5DF4D; padding-top: 16px; padding-bottom: 16px; padding-left: 192px; padding-right: 192px; font-size: 15px; font-weight: 500; color: #551C53; text-decoration-line: none; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms">
+                    <a href="#" class="sm-px-12 hover-bg-ziyego-yellow-1-90" style="display: inline-block; border-radius: 24px; background-color: #F5DF4D; padding-top: 16px; padding-bottom: 16px; padding-left: 192px; padding-right: 192px; font-size: 15px; font-weight: 500; color: #551C53; text-decoration-line: none; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms">
                         Restablecer contraseña
                     </a>
-                    <p style="margin: 0; margin-top: 40px; margin-bottom: 40px; white-space: pre-line; font-size: 20px">Si tenes dudas sobre las políticas de privacidad,
+                    <p class="sm-my-7" style="margin: 0; margin-top: 40px; margin-bottom: 40px; white-space: pre-line; font-size: 20px">Si tenes dudas sobre las políticas de privacidad,
                         puedes consultarlo aquí
                     </p>
                     <a href="#" class="hover-font-semibold" style="display: inline-block; border-radius: 24px; border-width: 1px; border-style: solid; border-color: #fff; padding-top: 16px; padding-bottom: 16px; padding-left: 40px; padding-right: 40px; font-size: 15px; font-weight: 500; color: #fff; text-decoration-line: none; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms">
@@ -158,7 +176,7 @@
             </tr>
             <tr>
                 <td style="position: relative">
-                    <img src="images/email.webp" alt="Email" style="position: absolute; bottom: 0; right: -96px; height: 344px; width: auto">
+                    <img src="images/email.webp" class="sm-hidden" alt="Email" style="position: absolute; bottom: 0; right: -96px; height: 344px; width: auto">
                 </td>
             </tr>
         </table> </td>

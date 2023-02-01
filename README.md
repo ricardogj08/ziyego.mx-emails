@@ -35,4 +35,4 @@ Estandariza la guía de estilo de todo el código JavaScript:
 
 ## Licencia
 
-   Copyright (C) 2022-2023 - Genotipo (R)
+    Copyright (C) 2022-2023 - Genotipo (R)
