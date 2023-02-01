@@ -1,19 +1,21 @@
 <!-- Sección del banner -->
 <table class="w-full bg-ziyego-banner-background bg-cover bg-center bg-no-repeat rounded-3xl font-ziyego-text relative">
     <tr>
-        <td class="w-3/5 pt-12 pb-10 pl-16">
-            <h2 class="m-0 text-white text-40 font-medium mb-4">
+        <td class="sm:w-full w-3/5 pt-12 pb-10 sm:pl-8 pl-16 sm:pr-8">
+            <h2 class="m-0 text-white sm:text-3xl text-40 font-medium mb-4">
                 ¡Envíos a todo México!
             </h2>
             <p class="m-0 text-white text-2sm mb-8">
                 Cotiza con {{ page.company }}&copy; y obtén precios preferenciales para tus envíos a todo México
             </p>
-            <a href="#" class="inline-block no-underline text-2sm font-medium bg-ziyego-yellow-1 text-ziyego-purple-1 px-6 py-2 rounded-3xl hover:bg-ziyego-yellow-1/90 transition">
-                Cotizar
-            </a>
+            <p class="m-0 sm:text-center">
+                <a href="#" class="inline-block no-underline text-2sm font-medium bg-ziyego-yellow-1 text-ziyego-purple-1 px-6 py-2 rounded-3xl hover:bg-ziyego-yellow-1/90 transition">
+                    Cotizar
+                </a>
+            </p>
         </td>
         <td class="w-2/5">
-            <img src="images/repartidor.webp" class="h-56 w-auto absolute bottom-0 right-24" alt="Repartidor de {{ page.company }}">
+            <img src="images/repartidor.webp" class="sm:hidden h-56 w-auto absolute bottom-0 right-24" alt="Repartidor de {{ page.company }}">
         </td>
     </tr>
 </table>
