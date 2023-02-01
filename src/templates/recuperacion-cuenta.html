@@ -5,5 +5,41 @@ description: "Recuperación de cuenta"
 
 <extends src="src/layouts/default.html">
     <block name="content">
+        <!-- Sección de recuperación de cuenta -->
+        <table class="w-full bg-ziyego-content-background bg-cover bg-center bg-no-repeat rounded-t-57 text-white font-ziyego-text text-center">
+            <tr>
+                <td class="relative">
+                    <img src="images/avion-papel.webp" class="h-84 w-auto absolute top-36 -left-26" alt="Avión de papel">
+                </td>
+            </tr>
+            <tr>
+                <td class="py-40">
+                    <p class="m-0 text-xl">
+                        {{ page.company }}&reg; tu guía al instante.
+                    </p>
+                    <h1 class="m-0 text-50 font-medium mb-10">
+                        Recupera tu cuenta
+                    </h1>
+                    <p class="m-0 text-25 whitespace-pre-line mb-9">Puedes restablecer tu contraseña en el
+                        siguiente enlace
+                    </p>
+                    <a href="#" class="inline-block no-underline bg-ziyego-yellow-1 text-ziyego-purple-1 text-2sm font-medium px-48 py-4 rounded-3xl hover:bg-ziyego-yellow-1/90 transition">
+                        Restablecer contraseña
+                    </a>
+                    <p class="m-0 text-xl whitespace-pre-line my-10">Si tenes dudas sobre las políticas de privacidad,
+                        puedes consultarlo aquí
+                    </p>
+                    <a href="#" class="inline-block border border-solid border-white no-underline text-white text-2sm font-medium px-10 py-4 rounded-3xl hover:font-semibold transition">
+                        Aviso de privacidad
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="relative">
+                    <img src="images/email.webp" class="h-86 w-auto absolute bottom-0 -right-24" alt="Email">
+                </td>
+            </tr>
+        </table>
+        <!-- Fin de la sección de recuperación de cuenta -->
     </block>
 </extends>
