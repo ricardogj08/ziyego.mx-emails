@@ -110,7 +110,7 @@ module.exports = {
         sans: ['ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
         serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
         mono: ['ui-monospace', 'Menlo', 'Consolas', 'monospace'],
-        'ziyego-text': ['Open Sans', 'sans-serif'],
+        'ziyego-text': ['Open Sans', 'sans-serif']
       },
       fontSize: {
         0: '0',
@@ -190,9 +190,9 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'ziyego-content-background': "url('images/content-background.webp')",
-        'ziyego-banner-background': "url('images/banner-background.webp')",
-        'ziyego-mask': "url('images/mask.webp')",
+        'ziyego-content-background': "url('images/content-background.png')",
+        'ziyego-banner-background': "url('images/banner-background.png')",
+        'ziyego-mask': "url('images/mask.png')"
       },
       height: {
         22: '88px',
