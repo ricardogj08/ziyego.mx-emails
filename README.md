@@ -8,7 +8,7 @@ Demos:
 
 ## Instalación
 
-    git clone https://github.com/ricardogj08/ziyego.mx-emails.git
+    git clone git@bitbucket.org:genodev/ziyego.mx-emails.git
     cd ziyego.mx-emails
     npm install
 
