@@ -33,7 +33,12 @@
     }
   </style>
   <![endif]-->    <title>Nueva incidencia</title>
-  <style>:root {
+  <style>@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+:root {
   color-scheme: light dark;
 }
 .hover-bg-ziyego-yellow-1-90:hover {
@@ -42,156 +47,160 @@
 .hover-font-semibold:hover {
   font-weight: 600 !important;
 }
-@media (max-width: 600px) {
-  .sm--bottom-14 {
-    bottom: -56px !important;
+@media (min-width: 768px) {
+  .md--bottom-16 {
+    bottom: -64px !important;
   }
-  .sm-mb-8 {
+  .md-mb-10 {
+    margin-bottom: 40px !important;
+  }
+  .md-mb-8 {
     margin-bottom: 32px !important;
   }
-  .sm-mb-4 {
-    margin-bottom: 16px !important;
+  .md-block {
+    display: block !important;
   }
-  .sm-flex {
-    display: flex !important;
+  .md-h-28 {
+    height: 112px !important;
   }
-  .sm-hidden {
-    display: none !important;
+  .md-h-24 {
+    height: 96px !important;
   }
-  .sm-h-20 {
-    height: 80px !important;
+  .md-h-10 {
+    height: 40px !important;
   }
-  .sm-h-8 {
-    height: 32px !important;
+  .md-h-52 {
+    height: 208px !important;
   }
-  .sm-h-40 {
-    height: 160px !important;
+  .md-w-3-5 {
+    width: 60% !important;
   }
-  .sm-w-full {
+  .md-w-28 {
+    width: 112px !important;
+  }
+  .md-w-10 {
+    width: 40px !important;
+  }
+  .md-w-full {
     width: 100% !important;
   }
-  .sm-w-24 {
-    width: 96px !important;
-  }
-  .sm-w-8 {
-    width: 32px !important;
-  }
-  .sm-w-3-4 {
+  .md-w-3-4 {
     width: 75% !important;
   }
-  .sm-flex-col {
-    flex-direction: column !important;
+  .md-w-2-3 {
+    width: 66.666667% !important;
   }
-  .sm-justify-center {
-    justify-content: center !important;
+  .md-w-1-2 {
+    width: 50% !important;
   }
-  .sm-gap-x-4 {
-    column-gap: 16px !important;
+  .md-flex-row {
+    flex-direction: row !important;
   }
-  .sm-rounded-t-3xl {
+  .md-rounded-l-3xl {
     border-top-left-radius: 24px !important;
-    border-top-right-radius: 24px !important;
-  }
-  .sm-rounded-b-none {
-    border-bottom-right-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
-  }
-  .sm-rounded-b-3xl {
-    border-bottom-right-radius: 24px !important;
     border-bottom-left-radius: 24px !important;
   }
-  .sm-rounded-t-none {
-    border-top-left-radius: 0px !important;
+  .md-rounded-r-none {
     border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
   }
-  .sm-px-8 {
-    padding-left: 32px !important;
-    padding-right: 32px !important;
+  .md-rounded-r-3xl {
+    border-top-right-radius: 24px !important;
+    border-bottom-right-radius: 24px !important;
   }
-  .sm-pt-14 {
-    padding-top: 56px !important;
+  .md-rounded-l-none {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
   }
-  .sm-pb-10 {
-    padding-bottom: 40px !important;
+  .md-px-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
-  .sm-pb-12 {
-    padding-bottom: 48px !important;
+  .md-pt-28 {
+    padding-top: 112px !important;
   }
-  .sm-pl-8 {
-    padding-left: 32px !important;
+  .md-pb-20 {
+    padding-bottom: 80px !important;
   }
-  .sm-pr-8 {
-    padding-right: 32px !important;
+  .md-pb-16 {
+    padding-bottom: 64px !important;
   }
-  .sm-pb-7 {
-    padding-bottom: 28px !important;
+  .md-pl-16 {
+    padding-left: 64px !important;
   }
-  .sm-pb-14 {
+  .md-pr-0 {
+    padding-right: 0 !important;
+  }
+  .md-pb-14 {
     padding-bottom: 56px !important;
   }
-  .sm-pt-12 {
-    padding-top: 48px !important;
+  .md-pb-28 {
+    padding-bottom: 112px !important;
   }
-  .sm-pb-8 {
-    padding-bottom: 32px !important;
+  .md-pb-24 {
+    padding-bottom: 96px !important;
   }
-  .sm-text-center {
-    text-align: center !important;
+  .md-pt-24 {
+    padding-top: 96px !important;
   }
-  .sm-text-3xl {
+  .md-pb-12 {
+    padding-bottom: 48px !important;
+  }
+  .md-text-left {
+    text-align: left !important;
+  }
+  .md-text-40 {
+    font-size: 40px !important;
+  }
+  .md-text-3xl {
     font-size: 30px !important;
   }
-  .sm-text-2xl {
-    font-size: 24px !important;
+  .md-text-50 {
+    font-size: 50px !important;
   }
-  .sm-text-4xl {
-    font-size: 36px !important;
+  .md-text-xl {
+    font-size: 20px !important;
   }
-  .sm-text-lg {
-    font-size: 18px !important;
-  }
-}</style> <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"></head>
+}</style> <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');</style></head>
 <body style="word-break: break-word; -webkit-font-smoothing: antialiased; margin: 0; width: 100%; padding: 0">
   <div role="article" aria-roledescription="email" aria-label="Nueva incidencia" lang="es">        <table style="height: 100vh; width: 100%; background-color: #F8FAFF" cellpadding="0" cellspacing="0" role="presentation">
             <tr>
                 <td>
                     <table style="width: 100%; margin-right: auto; margin-left: auto; padding-right: 16px; padding-left: 16px; max-width: 960px" cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
-                            <td class="sm-pt-14 sm-pb-10" style="padding-top: 112px; padding-bottom: 80px">
+                            <td class="md-pt-28 md-pb-20" style="padding-top: 56px; padding-bottom: 40px">
                                 <table style="width: 100%" cellpadding="0" cellspacing="0" role="presentation">
                                     <tr>
-                                        <td class="sm-pb-12" style="padding-bottom: 64px; text-align: center"> <a href="#">
-                                                <img src="images/logo.png" alt="Logo de Ziyegó" class="sm-h-20" style="height: 112px; width: auto">
+                                        <td class="md-pb-16" style="padding-bottom: 48px; text-align: center"> <a href="#">
+                                                <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/logo.png" alt="Logo de Ziyegó" class="md-h-28" style="height: 80px; width: auto">
                                             </a>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td> <table style="width: 100%; border-top-left-radius: 57px; border-top-right-radius: 57px; background-image: url('images/content-background.png'); background-size: cover; background-position: center; background-repeat: no-repeat; text-align: center; font-family: Open Sans, sans-serif; color: #fff" cellpadding="0" cellspacing="0" role="presentation">
+                                        <td> <table style="width: 100%; border-top-left-radius: 57px; border-top-right-radius: 57px; background-image: url('https://ricardogj08.github.io/ziyego.mx-emails/images/content-background.png'); background-size: cover; background-position: center; background-repeat: no-repeat; text-align: center; font-family: Open Sans, sans-serif; color: #fff" cellpadding="0" cellspacing="0" role="presentation">
             <tr>
                 <td style="position: relative">
-                    <img src="images/paquete-sobre.png" class="sm-hidden" alt="Paquete en sobre" style="position: absolute; top: -28px; right: -64px; height: 152px; width: auto">
+                    <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/paquete-sobre.png" class="md-block" alt="Paquete en sobre" style="position: absolute; top: -28px; right: -64px; display: none; height: 152px; width: auto">
                 </td>
             </tr>
             <tr>
-                <td class="sm-pt-12 sm-pb-8" style="padding-top: 96px; padding-bottom: 48px">
-                    <h1 class="sm-text-4xl sm-mb-4" style="margin: 0; margin-bottom: 32px; font-size: 50px; font-weight: 500; letter-spacing: -0.025em">
+                <td class="md-pt-24 md-pb-12" style="padding-bottom: 32px; padding-top: 48px">
+                    <h1 class="md-text-50 md-mb-8" style="margin: 0; margin-bottom: 16px; font-size: 36px; font-weight: 500; letter-spacing: -0.025em">
                         Nueva incidencia
                     </h1>
-                    <p class="sm-w-3-4 sm-text-lg" style="margin: auto; width: 66.666667%; font-size: 20px">
+                    <p class="md-w-2-3 md-text-xl" style="margin: auto; width: 75%; font-size: 18px">
                         Se ha registrado una nueva incidencia generada por algún envío que has realizado. Te invitamos a realizar el pago para que puedas seguir generando envíos en Ziyegó&reg;
                     </p>
                 </td>
             </tr>
             <tr>
                 <td style="padding-bottom: 24px">
-                    <table style="margin: auto; width: 80%" cellpadding="0" cellspacing="0" role="presentation">
-                        <tr class="sm-flex sm-flex-col">
-                            <td class="sm-w-full sm-h-40" style="height: 208px; width: 40%">
-                                <img src="https://picsum.photos/1280/720" class="sm-rounded-t-3xl sm-rounded-b-none" alt="Logo de la paquetería" style="height: 100%; width: 100%; border-top-left-radius: 24px; border-bottom-left-radius: 24px; object-fit: cover; object-position: center">
+                    <table style="margin: auto; width: 80%; text-align: center; font-family: Open Sans, sans-serif; color: #fff" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr class="md-flex-row" style="display: flex; flex-direction: column">
+                            <td class="md-w-2-3 md-h-52" style="height: 160px; width: 100%">
+                                <img src="https://picsum.photos/1280/720" class="md-rounded-l-3xl md-rounded-r-none" alt="Logo de la paquetería" style="height: 100%; width: 100%; border-top-left-radius: 24px; border-top-right-radius: 24px; object-fit: cover; object-position: center">
                             </td>
-                            <td class="sm-h-40 sm-rounded-b-3xl sm-rounded-t-none sm-flex sm-flex-col sm-justify-center" style="height: 208px; width: 100%; border-top-right-radius: 24px; border-bottom-right-radius: 24px; background-color: #62064D">
+                            <td class="md-h-52 md-rounded-r-3xl md-rounded-l-none" style="display: flex; height: 160px; width: 100%; flex-direction: column; justify-content: center; border-bottom-right-radius: 24px; border-bottom-left-radius: 24px; background-color: #62064D">
                                 <p style="margin: 0; margin-bottom: 2px; font-size: 20px">
                                     Monto de la incidencia
                                 </p>
@@ -204,19 +213,19 @@
                 </td>
             </tr>
             <tr>
-                <td class="sm-pb-8" style="padding-bottom: 64px">
-                    <table style="margin: auto; width: 80%; font-size: 20px" cellpadding="0" cellspacing="0" role="presentation">
-                        <tr class="sm-flex sm-flex-col">
-                            <td class="sm-w-full sm-flex sm-flex-col sm-justify-center" style="height: 176px; width: 50%; border-radius: 24px; background-color: #62064D">
+                <td class="md-pb-16" style="padding-bottom: 32px">
+                    <table style="margin: auto; width: 80%; text-align: center; font-family: Open Sans, sans-serif; font-size: 20px; color: #fff" cellpadding="0" cellspacing="0" role="presentation">
+                        <tr class="md-flex-row" style="display: flex; flex-direction: column">
+                            <td class="md-w-1-2" style="display: flex; height: 176px; width: 100%; flex-direction: column; justify-content: center; border-radius: 24px; background-color: #62064D">
                                 <p style="margin: 0; margin-bottom: 8px">
                                     Clave de envío
                                 </p>
-                                <p style="margin: 0; font-weight: 500">
+                                <p style="margin: 0; overflow-wrap: break-word; font-weight: 500">
                                     3015897017611683085940
                                 </p>
                             </td>
                             <td role="separator" style="padding-left: 16px; padding-right: 16px">&zwj;</td>
-                            <td class="sm-w-full sm-flex sm-flex-col sm-justify-center" style="height: 176px; width: 50%; border-radius: 24px; background-color: #62064D">
+                            <td class="md-w-1-2" style="display: flex; height: 176px; width: 100%; flex-direction: column; justify-content: center; border-radius: 24px; background-color: #62064D">
                                 <p style="margin: 0; margin-bottom: 8px">
                                     Tipo de incidencia
                                 </p>
@@ -239,7 +248,7 @@
                             </td>
                             <td role="separator" style="padding: 8px">&zwj;</td>
                             <td style="text-align: left">
-                                <a href="#" class="hover-bg-ziyego-yellow-1-90" style="display: inline-block; border-radius: 24px; background-color: #F5DF4D; padding-top: 16px; padding-bottom: 16px; padding-left: 32px; padding-right: 32px; font-size: 15px; font-weight: 500; color: #551C53; text-decoration-line: none; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms">
+                                <a href="#" class="hover-bg-ziyego-yellow-1-90" style="display: inline-block; border-radius: 24px; background-color: #F5DF4D; padding-left: 32px; padding-right: 32px; padding-top: 16px; padding-bottom: 16px; font-size: 15px; font-weight: 500; color: #551C53; text-decoration-line: none; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms">
                                     Pagar incidencia
                                 </a>
                             </td>
@@ -249,12 +258,12 @@
             </tr>
             <tr>
                 <td style="position: relative">
-                    <img src="images/paquete-caja.png" class="sm-hidden" alt="Paquete en caja" style="position: absolute; bottom: -64px; left: -56px; height: 232px; width: auto">
+                    <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/paquete-caja.png" class="md-block" alt="Paquete en caja" style="position: absolute; bottom: -64px; left: -56px; display: none; height: 232px; width: auto">
                 </td>
             </tr>
             <tr>
                 <td style="position: relative">
-                    <img src="images/bandera-mexico.png" class="sm-h-20 sm--bottom-14" alt="Bandera de México" style="position: absolute; left: 0; right: 0; bottom: -64px; margin: auto; height: 96px; width: auto">
+                    <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/bandera-mexico.png" class="md-h-24 md--bottom-16" alt="Bandera de México" style="position: absolute; left: 0; right: 0; bottom: -56px; margin: auto; height: 80px; width: auto">
                 </td>
             </tr>
         </table> </td>
@@ -264,46 +273,46 @@
 <table style="width: 100%; border-bottom-right-radius: 57px; border-bottom-left-radius: 57px; background-color: #fff; text-align: center; font-family: Open Sans, sans-serif; color: #972B99" cellpadding="0" cellspacing="0" role="presentation">
     <tr>
         <td style="position: relative">
-            <img src="images/confeti-left.png" alt="Confeti mexicano" style="position: absolute; top: 0; left: 0; height: 320px; width: auto">
-            <img src="images/confeti-right.png" alt="Confeti mexicano" style="position: absolute; top: 16px; right: 0; height: 320px; width: auto">
+            <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/confeti-left.png" alt="Confeti mexicano" style="position: absolute; top: 0; left: 0; height: 320px; width: auto">
+            <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/confeti-right.png" alt="Confeti mexicano" style="position: absolute; top: 16px; right: 0; height: 320px; width: auto">
         </td>
     </tr>
     <tr>
-        <td class="sm-pb-14" style="padding-top: 64px; padding-bottom: 112px">
+        <td class="md-pb-28" style="padding-top: 64px; padding-bottom: 56px">
             <h2 style="margin: 0; margin-bottom: 12px; font-size: 30px; font-weight: 500">
                 ¡Ziyegó te ayuda!
             </h2>
-            <p class="sm-text-4xl sm-w-3-4" style="margin: auto; white-space: pre-line; font-size: 50px; font-weight: 500">Envía a todo México
+            <p class="md-text-50 md-w-full" style="margin: auto; width: 75%; white-space: pre-line; font-size: 36px; font-weight: 500">Envía a todo México
                 al mejor precio
             </p>
         </td>
     </tr>
-        <td class="sm-pb-10" style="padding-bottom: 64px">
-            <table class="sm-px-8 sm-w-full" style="margin: auto; width: 75%" cellpadding="0" cellspacing="0" role="presentation">
-                <tr class="sm-gap-x-4" style="display: flex; align-items: flex-start">
-                    <td class="sm-pb-12" style="width: 50%; padding-bottom: 96px">
-                        <img src="images/mejor-precio.png" alt="Adquiere tus guías al mejor precio" style="height: 164px; width: auto">
-                        <h3 class="sm-text-lg" style="margin: 0; margin-top: 20px; font-size: 20px; font-weight: 500">
+        <td class="md-pb-16" style="padding-bottom: 40px">
+            <table class="md-px-0 md-w-3-4" style="margin: auto; width: 100%; padding-left: 32px; padding-right: 32px; text-align: center; font-family: Open Sans, sans-serif; color: #972B99" cellpadding="0" cellspacing="0" role="presentation">
+                <tr style="display: flex; align-items: flex-start; column-gap: 16px">
+                    <td class="md-pb-24" style="width: 50%; padding-bottom: 48px">
+                        <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/mejor-precio.png" alt="Adquiere tus guías al mejor precio" style="height: 164px; width: auto">
+                        <h3 class="md-text-xl" style="margin: 0; margin-top: 20px; font-size: 18px; font-weight: 500">
                             Adquiere tus guías al mejor precio
                         </h3>
                     </td>
-                    <td class="sm-pb-12" style="width: 50%; padding-bottom: 96px">
-                        <img src="images/atencion-personalizada.png" alt="Atención personalizada" style="height: 164px; width: auto">
-                        <h3 class="sm-text-lg" style="margin: 0; margin-top: 20px; font-size: 20px; font-weight: 500">
+                    <td class="md-pb-24" style="width: 50%; padding-bottom: 48px">
+                        <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/atencion-personalizada.png" alt="Atención personalizada" style="height: 164px; width: auto">
+                        <h3 class="md-text-xl" style="margin: 0; margin-top: 20px; font-size: 18px; font-weight: 500">
                             Atención personalizada
                         </h3>
                     </td>
                 </tr>
-                <tr class="sm-gap-x-4" style="display: flex; align-items: flex-start">
+                <tr style="display: flex; align-items: flex-start; column-gap: 16px">
                     <td style="width: 50%">
-                        <img src="images/opciones-envio.png" alt="Diferentes opciones de envío" style="height: 164px; width: auto">
-                        <h3 class="sm-text-lg" style="margin: 0; margin-top: 20px; font-size: 20px; font-weight: 500">
+                        <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/opciones-envio.png" alt="Diferentes opciones de envío" style="height: 164px; width: auto">
+                        <h3 class="md-text-xl" style="margin: 0; margin-top: 20px; font-size: 18px; font-weight: 500">
                             Diferentes opciones de envío
                         </h3>
                     </td>
                     <td style="width: 50%">
-                        <img src="images/sin-salir.png" alt="¡Envía sin salir de casa!" style="height: 164px; width: auto">
-                        <h3 class="sm-text-lg" style="margin: 0; margin-top: 20px; font-size: 20px; font-weight: 500">
+                        <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/sin-salir.png" alt="¡Envía sin salir de casa!" style="height: 164px; width: auto">
+                        <h3 class="md-text-xl" style="margin: 0; margin-top: 20px; font-size: 18px; font-weight: 500">
                             ¡Envía sin salir de casa!
                         </h3>
                         <p style="margin: 0; font-size: 14px; color: #869BB0">
@@ -314,7 +323,7 @@
             </table>
         </td>
     <tr>
-        <td class="sm-pb-10" style="padding-bottom: 56px">
+        <td class="md-pb-14" style="padding-bottom: 40px">
             <a href="#" class="hover-bg-ziyego-yellow-1-90" style="display: inline-block; border-radius: 9999px; background-color: #F5DF4D; padding-left: 44px; padding-right: 44px; padding-top: 20px; padding-bottom: 20px; font-size: 15px; font-weight: 500; color: #551C53; text-decoration-line: none; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms">
                 Visitar la web
             </a>
@@ -323,24 +332,24 @@
 </table> </td>
                                     </tr>
                                     <tr>
-                                        <td class="sm-pb-10" style="padding-bottom: 80px">
-<table style="position: relative; width: 100%; border-radius: 24px; background-image: url('images/banner-background.png'); background-size: cover; background-position: center; background-repeat: no-repeat; font-family: Open Sans, sans-serif" cellpadding="0" cellspacing="0" role="presentation">
+                                        <td class="md-pb-20" style="padding-bottom: 40px">
+<table style="position: relative; width: 100%; border-radius: 24px; background-image: url('https://ricardogj08.github.io/ziyego.mx-emails/images/banner-background.png'); background-size: cover; background-position: center; background-repeat: no-repeat; font-family: Open Sans, sans-serif" cellpadding="0" cellspacing="0" role="presentation">
     <tr>
-        <td class="sm-w-full sm-pl-8 sm-pr-8" style="width: 60%; padding-top: 48px; padding-bottom: 40px; padding-left: 64px">
-            <h2 class="sm-text-3xl" style="margin: 0; margin-bottom: 16px; font-size: 40px; font-weight: 500; color: #fff">
+        <td class="md-w-3-5 md-pl-16 md-pr-0" style="width: 100%; padding-bottom: 40px; padding-top: 48px; padding-left: 32px; padding-right: 32px">
+            <h2 class="md-text-40" style="margin: 0; margin-bottom: 16px; font-size: 30px; font-weight: 500; color: #fff">
                 ¡Envíos a todo México!
             </h2>
             <p style="margin: 0; margin-bottom: 32px; font-size: 15px; color: #fff">
                 Cotiza con Ziyegó&copy; y obtén precios preferenciales para tus envíos a todo México
             </p>
-            <p class="sm-text-center" style="margin: 0">
+            <p class="md-text-left" style="margin: 0; text-align: center">
                 <a href="#" class="hover-bg-ziyego-yellow-1-90" style="display: inline-block; border-radius: 24px; background-color: #F5DF4D; padding-left: 24px; padding-right: 24px; padding-top: 8px; padding-bottom: 8px; font-size: 15px; font-weight: 500; color: #551C53; text-decoration-line: none; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms">
                     Cotizar
                 </a>
             </p>
         </td>
         <td style="width: 40%">
-            <img src="images/repartidor.png" class="sm-hidden" alt="Repartidor de Ziyegó" style="position: absolute; bottom: 0; right: 96px; height: 224px; width: auto">
+            <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/repartidor.png" class="md-block" alt="Repartidor de Ziyegó" style="position: absolute; bottom: 0; right: 96px; display: none; height: 224px; width: auto">
         </td>
     </tr>
 </table> </td>
@@ -350,29 +359,29 @@
 <table style="width: 100%; text-align: center; font-family: Open Sans, sans-serif" cellpadding="0" cellspacing="0" role="presentation">
     <tr>
         <td style="padding-bottom: 24px"> <a href="#">
-                <img src="images/footer-logo.png" class="sm-h-20" alt="Logo de Ziyegó" style="height: 96px; width: auto">
+                <img src="https://ricardogj08.github.io/ziyego.mx-emails/images/footer-logo.png" class="md-h-24" alt="Logo de Ziyegó" style="height: 80px; width: auto">
             </a>
         </td>
     </tr>
     <tr>
         <td>
-            <p class="sm-text-2xl sm-mb-8" style="margin: 0; margin-bottom: 40px; font-size: 30px; font-weight: 500; color: #551C53">
+            <p class="md-text-3xl md-mb-10" style="margin: 0; margin-bottom: 32px; font-size: 24px; font-weight: 500; color: #551C53">
                 Saludos del equipo de
                 <span style="position: relative">
                     <span style="position: relative; z-index: 10">Ziyegó</span>
-                    <span class="sm-w-24" style="position: absolute; bottom: -8px; right: -32px; height: 20px; width: 112px; background-color: #F5DF4D"></span>
+                    <span class="md-w-28" style="position: absolute; bottom: -8px; right: -32px; height: 20px; width: 96px; background-color: #F5DF4D"></span>
                 </span>
             </p>
         </td>
     </tr>
-    <tr> <td class="sm-pb-7" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; column-gap: 32px; row-gap: 16px; fill: #551C53; padding-bottom: 56px"> <a href="#" aria-label="Facebook de Ziyegó">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="sm-h-8 sm-w-8" style="height: 40px; width: 40px"> <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+    <tr> <td class="md-pb-14" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; column-gap: 32px; row-gap: 16px; fill: #551C53; padding-bottom: 28px"> <a href="#" aria-label="Facebook de Ziyegó">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="md-h-10 md-w-10" style="height: 32px; width: 32px"> <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
                 </svg>
             </a> <a href="#" aria-label="Instagram de Ziyegó">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="sm-h-8 sm-w-8" style="height: 40px; width: 40px"> <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="md-h-10 md-w-10" style="height: 32px; width: 32px"> <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
                 </svg>
             </a> <a href="#" aria-label="LinkedIn de Ziyegó">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="sm-h-8 sm-w-8" style="height: 40px; width: 40px"> <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="md-h-10 md-w-10" style="height: 32px; width: 32px"> <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
                 </svg>
             </a>
         </td>

@@ -2,7 +2,8 @@ module.exports = {
   theme: {
     screens: {
       xs: { max: '425px' },
-      sm: { max: '600px' }
+      sm: { max: '600px' },
+      md: { min: '768px' }
     },
     container: {
       center: true,

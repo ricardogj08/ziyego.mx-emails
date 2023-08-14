@@ -2,9 +2,9 @@
 <extends src="src/layouts/main.html">
     <block name="head">
         <!-- Fuentes tipográficas -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+        </style>
     </block>
     <block name="template">
         <table class="w-full bg-ziyego-gray-3 h-screen">
@@ -12,13 +12,13 @@
                 <td>
                     <table class="container max-w-12xl">
                         <tr>
-                            <td class="sm:pt-14 pt-28 sm:pb-10 pb-20">
+                            <td class="pt-14 md:pt-28 pb-10 md:pb-20">
                                 <table class="w-full">
                                     <tr>
-                                        <td class="sm:pb-12 pb-16 text-center">
+                                        <td class="pb-12 md:pb-16 text-center">
                                             <!-- Logo -->
                                             <a href="#">
-                                                <img src="images/logo.png" alt="Logo de {{ page.company }}" class="sm:h-20 h-28 w-auto">
+                                                <img src="images/logo.png" alt="Logo de {{ page.company }}" class="h-20 md:h-28 w-auto">
                                             </a>
                                         </td>
                                     </tr>
@@ -35,7 +35,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="sm:pb-10 pb-20">
+                                        <td class="pb-10 md:pb-20">
                                             <!-- Banner -->
                                             <component src="src/components/banner.html"></component>
                                         </td>
