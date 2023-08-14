@@ -44,42 +44,6 @@
 .hover-bg-ziyego-yellow-1-90:hover {
   background-color: rgb(245 223 77 / 0.9) !important;
 }
-@media (max-width: 600px) {
-  .sm-flex {
-    display: flex !important;
-  }
-  .sm-hidden {
-    display: none !important;
-  }
-  .sm-h-24 {
-    height: 96px !important;
-  }
-  .sm-w-full {
-    width: 100% !important;
-  }
-  .sm-w-3-4 {
-    width: 75% !important;
-  }
-  .sm-flex-col {
-    flex-direction: column !important;
-  }
-  .sm-justify-center {
-    justify-content: center !important;
-  }
-  .sm-px-12 {
-    padding-left: 48px !important;
-    padding-right: 48px !important;
-  }
-  .sm-pb-8 {
-    padding-bottom: 32px !important;
-  }
-  .sm-pb-12 {
-    padding-bottom: 48px !important;
-  }
-  .sm-text-4xl {
-    font-size: 36px !important;
-  }
-}
 @media (min-width: 768px) {
   .md-mb-10 {
     margin-bottom: 40px !important;
@@ -96,6 +60,9 @@
   .md-h-10 {
     height: 40px !important;
   }
+  .md-h-32 {
+    height: 128px !important;
+  }
   .md-w-3-5 {
     width: 60% !important;
   }
@@ -111,9 +78,19 @@
   .md-w-3-4 {
     width: 75% !important;
   }
+  .md-w-1-2 {
+    width: 50% !important;
+  }
+  .md-flex-row {
+    flex-direction: row !important;
+  }
   .md-px-0 {
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+  .md-px-60 {
+    padding-left: 240px !important;
+    padding-right: 240px !important;
   }
   .md-pt-28 {
     padding-top: 112px !important;
@@ -138,6 +115,9 @@
   }
   .md-pb-24 {
     padding-bottom: 96px !important;
+  }
+  .md-pb-12 {
+    padding-bottom: 48px !important;
   }
   .md-text-left {
     text-align: left !important;
@@ -173,12 +153,12 @@
                                         <td> <table style="width: 100%; border-top-left-radius: 57px; border-top-right-radius: 57px; background-image: url('images/content-background.png'); background-size: cover; background-position: center; background-repeat: no-repeat; text-align: center; font-family: Open Sans, sans-serif; color: #fff" cellpadding="0" cellspacing="0" role="presentation">
             <tr>
                 <td style="padding-top: 64px">
-                    <img src="images/cartera.png" class="sm-h-24" alt="Cartera" style="height: 128px; width: auto">
+                    <img src="images/cartera.png" class="md-h-32" alt="Cartera" style="height: 96px; width: auto">
                 </td>
             </tr>
             <tr>
-                <td class="sm-pb-8" style="padding-bottom: 48px">
-                    <h1 class="sm-text-4xl" style="margin: 0; margin-top: 12px; margin-bottom: 20px; font-size: 50px; font-weight: 500; letter-spacing: -0.025em">
+                <td class="md-pb-12" style="padding-bottom: 32px">
+                    <h1 class="md-text-50" style="margin: 0; margin-top: 12px; margin-bottom: 20px; font-size: 36px; font-weight: 500; letter-spacing: -0.025em">
                         Recarga Abonada
                     </h1>
                     <p style="margin: 0; margin-bottom: 2px; font-size: 20px">
@@ -192,8 +172,8 @@
             <tr>
                 <td style="padding-bottom: 32px">
                     <table style="margin: auto; width: 80%" cellpadding="0" cellspacing="0" role="presentation">
-                        <tr class="sm-flex sm-flex-col">
-                            <td class="sm-w-full sm-flex sm-flex-col sm-justify-center" style="height: 144px; width: 50%; border-radius: 24px; background-color: #62064D; font-size: 20px">
+                        <tr class="md-flex-row" style="display: flex; flex-direction: column">
+                            <td class="md-w-1-2" style="display: flex; height: 144px; width: 100%; flex-direction: column; justify-content: center; border-radius: 24px; background-color: #62064D; font-size: 20px">
                                 <p style="margin: 0; margin-bottom: 2px; font-size: 20px; letter-spacing: -0.025em">
                                     Monto cobrado
                                 </p>
@@ -202,7 +182,7 @@
                                 </p>
                             </td>
                             <td role="separator" style="padding-left: 16px; padding-right: 16px; padding-top: 24px; padding-bottom: 24px">&zwj;</td>
-                            <td class="sm-w-full sm-flex sm-flex-col sm-justify-center" style="position: relative; height: 144px; width: 50%; border-radius: 24px; background-color: #62064D">
+                            <td class="md-w-1-2" style="position: relative; display: flex; height: 144px; width: 100%; flex-direction: column; justify-content: center; border-radius: 24px; background-color: #62064D">
                                 <p style="margin: 0; margin-bottom: 2px; font-size: 20px; letter-spacing: -0.025em">
                                     Monto Abonado
                                 </p>
@@ -218,18 +198,18 @@
                 </td>
             </tr>
             <tr>
-                <td class="sm-pb-12" style="padding-bottom: 96px">
-                    <p class="sm-w-3-4" style="margin: auto; padding-bottom: 16px; font-size: 20px">
+                <td class="md-pb-24" style="padding-bottom: 48px">
+                    <p class="md-w-full" style="margin: auto; width: 75%; padding-bottom: 16px; font-size: 20px">
                         Puedes revisar tu saldo iniciando sesión en el siguiente enlace.
                     </p>
-                    <a href="#" class="sm-px-12 hover-bg-ziyego-yellow-1-90" style="display: inline-block; border-radius: 9999px; background-color: #F5DF4D; padding-top: 16px; padding-bottom: 16px; padding-left: 240px; padding-right: 240px; font-size: 15px; font-weight: 500; color: #551C53; text-decoration-line: none; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms">
+                    <a href="#" class="md-px-60 hover-bg-ziyego-yellow-1-90" style="display: inline-block; border-radius: 9999px; background-color: #F5DF4D; padding-left: 48px; padding-right: 48px; padding-top: 16px; padding-bottom: 16px; font-size: 15px; font-weight: 500; color: #551C53; text-decoration-line: none; transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms">
                         Iniciar Sesión
                     </a>
                 </td>
             </tr>
             <tr>
                 <td style="position: relative">
-                    <img src="images/moneda.png" class="sm-hidden" alt="Moneda" style="position: absolute; bottom: -48px; right: -56px; z-index: 10; height: 176px; width: auto">
+                    <img src="images/moneda.png" class="md-block" alt="Moneda" style="position: absolute; bottom: -48px; right: -56px; z-index: 10; display: none; height: 176px; width: auto">
                 </td>
             </tr>
         </table> </td>
